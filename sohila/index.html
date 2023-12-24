@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Backery shop</title>
+        <!-- وصف الموقع -->
+        <meta name="description" content="this is our backery shop"/>
+        <link rel="stylesheet" href="main.css">
+        <a href="main.css"></a>
+        <style></style>
+        <script src="https://kit.fontawesome.com/781d68cbaa.js" crossorigin="anonymous"></script>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <div id="home">
+            
+            <div class="overlay">
+                 <div class="navbar"> 
+                    <img src="images/Yummy.jpg" class="logo" alt="logo pic">
+                    <div class="link">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#bakery">Dessert</a></li>
+                            <li><a href="#Drinks">Drink</a></li>
+                            <li><a href="#us">Visite us</a></li>
+                            <li><i class='bx bx-search bx-tada' undefined ></i></li>
+
+                            <div class="cart-container">
+                                <i class="bx bx-cart"></i>
+                                <span id="cart-count">0</span>
+                            </div>
+
+
+                            
+                        </ul>
+                    </div>
+
+                </div>
+                <h1>We Implament Your <br> </h1> 
+                <h2>Delicios Dreams...</h2>                
+            </div>
+
+        </div>
+        <div id="bakery">
+            <h1>Product</h1>
+           <div class="container">
+            <div class="box">
+                <img src="images/ban.jpg" alt="waffel">
+                <h2>ban cake <br> 70LE</h2>
+                <button class="cart-btn" onclick="addToCart()">Add to Cart</button>
+                 </div>
+            <div class="box">
+                    <img src="images/waffel.jpg" alt="waffel">
+                    <h2>Waffel <br> 70LE</h2>
+                    <button class="cart-btn" onclick="addToCart()">Add to Cart</button>
+                </div>
+            <div class="box">
+                        <img src="images/buffin.jpg" alt="waffel">
+                        <h2>Muffin<br> 70LE</h2>
+                        <button class="cart-btn" onclick="addToCart()">Add to Cart</button>
+                    </div>
+             <div class="box">
+                            <img src="images/cheesecake.jpg" alt="waffel">
+                            <h2>cheese-cake <br> 70LE</h2>      
+                            <button class="cart-btn" onclick="addToCart()">Add to Cart</button>
+                        </div>
+             <div class="box">
+                                <img src="images/cake6.jpg" alt="waffel">
+                                <h2>Cake <br> 70LE</h2>
+                                <button class="cart-btn" onclick="addToCart()">Add to Cart</button>
+                            </div>
+           </div> 
+
+        </div>
+
+        <div id="Drinks">
+            <h1>Drink</h1>
+           <div class="container">
+            <div class="box">
+                <img src="images/berry.jpg" alt="waffel">
+                <h2>Berry Milkshake<br> 70LE</h2>
+                 </div>
+            <div class="box">
+                    <img src="images/coclate.jpg" alt="waffel">
+                    <h2>Choclate Milshake<br> 70LE</h2>
+                     </div>
+            <div class="box">
+                        <img src="images/ice.jpg" alt="waffel">
+                        <h2>Ice Moka<br> 70LE</h2>
+                         </div>
+             <div class="box">
+                            <img src="images/lotuse.jpg" alt="waffel">
+                            <h2>Lotuse Milshake<br> 70LE</h2>
+                             </div>
+             <div class="box">
+                                <img src="images/cap.jpg" alt="waffel">
+                                <h2>Spanish late<br> 70LE</h2>
+                                 </div>
+           </div> 
+
+        </div>
+        <div id="us">
+            <div class="footer">
+
+                <div class="col1">
+                    <h3>USEFUL LINKS</h3>
+                    <a href="#">About</a>
+                    <a href="#">Service</a>
+                    <a href="#">Contact</a>
+                    <a href="#">shop</a>
+                    <a href="#">blogs</a>
+                </div>
+
+                <div class="col2">
+                    <h3>Join our Newsletter</h3>
+                    <form action="index.php" method="post">
+                        
+                        <input type="email" name="email" id="email" placeholder="Enter Your Email Address" required>
+
+                        <br>
+                        <!-- form bottooooooooon -->
+                         <button type="submit" name="btntest" id="subscribe">Subscribe Now </button>
+                         <div class="tthh" id="tthh">
+                            <h2> Thank A Lot</h2>
+                             <p> Your Email Succsuffly Send </p> 
+                            <btn type="button" id="Done"> Done</btn>
+                         </div>
+                        
+                    </form>
+                </div>
+                <!-- <script src="https://smtpjs.com/v3/smtp.js">
+                </script> -->
+
+                <div class="col3">
+                    <h3>CONTACT</h3>
+                    <P> 6 october,gamal road <br> <br> EYGPT</P>
+                    <br>
+                    <P>0453408091</P>
+                    <div class="social-icons">
+                        <a href=" https://www.google.com">  <i class='bx bxl-facebook-circle bx-tada' ></i> </a>
+                        <i class='bx bxl-twitter bx-tada' ></i>      
+                        <i class='bx bxl-instagram-alt bx-tada' ></i>
+                        <i class='bx bxl-pinterest-alt bx-tada' ></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+        <script src="main.js"></script>
+    </body>
+</html>

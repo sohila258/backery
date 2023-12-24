@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#home{
+    height: 800px;
+    width: 100%;
+    background-image: url(./images/pancakes.jpg);
+    background-size: 100% 100%;
+}
+#home h1{
+    margin-left: 600px;
+    color:rgba(21, 119, 144, 0.795);
+    padding-top: 220px;
+    font-weight:bolder;
+    font-style: italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+#home h2{
+    color: rgba(21, 119, 144, 0.795);
+    padding-top: 300px;
+    padding-left:  1px; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bolder;
+    font-size: 40px;
+
+
+}
+
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.093);
+    height: 900px;
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    background-color:#d8d2d2;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    padding-left: 20px;
+    /* float: left; */
+}
+.link{
+    width: 50%;
+    float: right;
+}
+.navbar .link ul{
+    list-style-type: none;
+
+}
+.navbar .link ul li{
+    float: left;
+    margin: 0 20px;
+    padding-top: 25px;
+    font-size: 20px;
+    /* color: #e79696; */
+    
+}
+.navbar .link ul li a{
+    text-decoration: none ;
+    color: rgba(21, 119, 144, 0.795);
+}
+.navbar .link ul li i{
+    color:rgba(21, 119, 144, 0.795);
+    font-size: 25px;
+
+}
+
+.cart-container {
+    display: flex;
+    align-items: center; 
+    color: rgba(21, 119, 144, 0.795);
+
+}
+
+.cart-container i {
+    font-size: 24px; 
+    margin-right: 5px; 
+    margin-top: 25px;
+    color: rgba(21, 119, 144, 0.795);
+
+
+}
+
+#cart-count {
+    font-size: 16px; 
+    font-weight: bold;
+}
+
+
+
+
+
+/* ................................................................................... */
+
+#bakery{
+    height: 700px;
+    width: 100%;
+    background-color: #d8d2d2;
+     /* background-image: url(./images/ll.jpg);  */
+    /* background-size: 100% 100%;
+    background-position: center; */
+}
+#bakery h1{
+text-align: center;
+color: rgba(21, 119, 144, 0.795);
+padding-top: 90px;
+padding-bottom: 60px;
+}
+h2{
+    text-align:left;
+    color: rgba(21, 119, 144, 0.795);
+    padding-top: 20px;
+    padding-left: 70px;
+}
+#bakery.container{
+    width: 50%;
+    padding: 20px;
+    margin: 100px auto;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    
+}
+.box{
+    width: 250px;
+    float: left;
+    margin: 0 25px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition: 1s;
+
+}
+.box img{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+/* ................................................................................... */
+
+#Drinks{
+    height: 750px;
+    width: 100%;
+    background-color: #d8d2d2;
+    /* background-color: rgb(15, 12, 12); */
+    background-size: 100% 100%;
+    background-position: center;
+}
+h1{
+    color:rgba(21, 119, 144, 0.795);
+    text-align: center;
+    text-align: center;
+     padding-top: 90px;
+     padding-bottom: 60px;
+    
+ /* padding-top: 50px;
+ font-size: 25px;
+ font-family: cursive;
+ color: beige; */
+}
+#Drinks.container{
+    width: 50%;
+    padding: 20px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.box{
+    width: 250px;
+    float: left;
+    margin: 0 25px;
+    box-shadow: rgba(21, 119, 144, 0.795);
+    transition: 1s;
+
+}
+.box h2{
+    color:rgba(21, 119, 144, 0.795);
+}
+.box img{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+.box:hover{
+ transform: scale(1.3);
+ z-index: 2;
+}
+
+#us{
+    height: 750px;
+    width: 100%;
+    background-color: rgb(225, 218, 218);
+    background-size: 100% 100%;
+    background-position: center;
+}
+.footer{
+     /* margin-top: 150px;  */
+    width: 80%;
+    height: 500px;
+    padding: 100px 10%;
+    background: #d8d2d2;
+    color:rgba(21, 119, 144, 0.795);
+    display: flex;
+}
+.footer div{
+    text-align: center;
+
+}
+.col2{
+    flex-grow: 2;
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px; 
+}
+.col1 a{
+    display: block;
+    text-decoration: none;
+    color:rgba(21, 119, 144, 0.795);
+    margin-bottom: 10px;
+    font-size: 17px;
+
+}
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    /* outline: none; */
+    /* border: none; */
+    border: 2px solid rgba(21, 119, 144, 0.795);
+    
+    
+
+}
+:placeholder-shown{
+    color:rgba(21, 119, 144, 0.795);
+    background-color: #d8d2d2;
+    
+}
+/* :placeholder :hover{
+    color: rgba(21, 119, 144, 0.795);
+} */
+form button{
+    background: transparent;
+    border: 2px solid rgba(21, 119, 144, 0.795);
+    color: rgba(21, 119, 144, 0.795);    
+    border-radius: 30px;        
+    padding: 1% 20px;
+    font-size: 20px;    
+    cursor: pointer;
+}
+.tthh{
+    width: 300px;
+    background:transparent;
+    border: 2px solid rgba(21, 119, 144, 0.795);
+    border-radius: 30px;
+    padding: 10px;
+    height: 100px;
+    text-align: center;
+    margin: 10px;
+   margin-left:  200px;
+   color: rgba(21, 119, 144, 0.795);    
+
+
+}
+ .hidden{
+    visibility:hidden; 
+} 
+.tthh p{
+    margin-bottom: 1rem;
+}
+.tthh btn{
+    padding: 5px 15px ;
+    border: 1px solid gray;
+    /* color: rgb(29, 95, 95); */
+    transition: all;
+    border-radius: 8px;
+    background: transparent;
+    box-shadow:0 2px 5px rgba(0, 0,0, 0.6);
+    cursor: pointer;
+    
+}
+
+.tthh btn:hover{
+    background-color: rgba(255, 0, 0, 0.151);
+}
+
+.social-icons{
+    margin: 30px;
+}
+.social-icons i{
+    font-size: 30px;
+    margin: 10px;
+    cursor: pointer;
+    color:rgba(21, 119, 144, 0.795);
+    
+}
+.col1 h3{
+    font-size: 30px;
+}
+.col2 h3{
+    font-size: 50px;
+}
+.col3 h3{
+    font-size: 50px;
+}
+
+button{
+    border: 2px solid rgba(21, 119, 144, 0.795);
+    background:#d8d2d2;;
+    color:  rgba(21, 119, 144, 0.795);
+    font-weight: bold;
+    margin-left: 55px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+button:hover{
+    box-shadow: 0 0 5px rgba(21, 119, 144, 0.795);
+}
